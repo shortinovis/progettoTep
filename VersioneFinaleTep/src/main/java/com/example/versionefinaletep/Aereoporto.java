@@ -2,16 +2,16 @@ package com.example.versionefinaletep;
 
 public class Aereoporto {
     public static void main(String[] args) {
-            Aerei a1=new Aerei("alyanz");
-            Aerei a2=new Aerei("alitalia");
-            Aerei a3=new Aerei("ryanar");
-            Aerei a4=new Aerei("easyget");
-            Aerei a5=new Aerei("scarnagas");
-            Aerei a6=new Aerei("sbenzus");
-            Aerei a7=new Aerei("AmbriolaCompany");
-            Aerei a8=new Aerei("FullBox");
-            Aerei a9=new Aerei("dordi");
-            Aerei a10=new Aerei("mollyrosa");
+            Aerei a1=new Aerei("alyanz", "volo");
+            Aerei a2=new Aerei("alitalia","attesapartenza");
+            Aerei a3=new Aerei("ryanar","attesapartenza");
+            Aerei a4=new Aerei("easyget","attesa");
+            Aerei a5=new Aerei("scarnagas","volo");
+            Aerei a6=new Aerei("sbenzus","volo");
+            Aerei a7=new Aerei("AmbriolaCompany","attesaatterraggio");
+            Aerei a8=new Aerei("FullBox","attesa");
+            Aerei a9=new Aerei("dordi","attesa");
+            Aerei a10=new Aerei("mollyrosa","attesaatterraggio");
 
             a1.start();
             a2.start();

@@ -9,11 +9,17 @@ public class Aerei extends Thread{
     private static final int pisteLibere = 3;
     private String agenzia;
     private static final Semaphore piste = new Semaphore(pisteLibere);
+    private String stato;
 
-    public Aerei(String agenzia){
+    public Aerei(String agenzia, String stato){
         this.agenzia=agenzia;
+        this.stato=stato;
     }
-
+    public void VisualizzazioneStato(){
+        for(int i=0; i< ; i++){
+            System.out.println();
+        }
+    }
 
 
     public void decolla(){
